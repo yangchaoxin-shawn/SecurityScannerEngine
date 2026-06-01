@@ -1,0 +1,20 @@
+# 全自动安全扫描引擎 — Python 依赖
+# 安装方式：pip install -r requirements.txt
+
+# 环境变量加载（.env 文件）
+python-dotenv>=1.0.0
+
+# Web 框架（漏洞靶场应用）
+flask
+
+# MySQL 数据库驱动（SQL 注入靶场）
+pymysql
+
+# HTTP 请求库（扫描器使用）
+requests
+
+# 可视化大屏依赖
+streamlit>=1.28.0
+pandas>=2.0.0
+plotly>=5.17.0
+streamlit-autorefresh>=1.0.1
